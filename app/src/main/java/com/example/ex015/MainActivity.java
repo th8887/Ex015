@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void random(View view) {
-        numa=Double.MIN_VALUE+(Double.MAX_VALUE-Double.MIN_VALUE)*rnd.nextDouble();
-        numb=Double.MIN_VALUE+(Double.MAX_VALUE-Double.MIN_VALUE)*rnd.nextDouble();
-        numc=Double.MIN_VALUE+(Double.MAX_VALUE-Double.MIN_VALUE)*rnd.nextDouble();
+        numa=(-100)+(100-(-100))*rnd.nextDouble();
+        numb=(-100)+(100-(-100))*rnd.nextDouble();
+        numc=(-100)+(100-(-100))*rnd.nextDouble();
         opa.setText(numa.toString());
         opb.setText(numb.toString());
         opc.setText(numc.toString());

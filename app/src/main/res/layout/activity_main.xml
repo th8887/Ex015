@@ -98,7 +98,7 @@
             <TextView
                 android:id="@+id/x2"
                 android:layout_width="0px"
-                android:layout_height="548dp"
+                android:layout_height="match_parent"
                 android:layout_weight="35"
                 android:textSize="18sp" />
 
